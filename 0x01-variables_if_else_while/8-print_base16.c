@@ -5,7 +5,7 @@
  * main - A program that prints numbers in base 16
  * Return: 0
  */
-int main
+int main(void)
 {
 	int x;
 	char alp;
