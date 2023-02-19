@@ -16,7 +16,12 @@ int main(void)
 		continue;
 		putchar(alp);
 
-		putchar('\n');
-	return (0);
 	}
+
+		putchar('\n');
+
+	return (0);
+
+
+
 }
