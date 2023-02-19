@@ -10,11 +10,11 @@ int main
 	int x;
 	char alp;
 
-	for(x = 0; x <= 9; x++)
+	for (x = 0; x <= 9; x++)
 
 		putchar(x + '0');
 
-	for(alp = 'a'; alp <= 'f'; alp++)
+	for (alp = 'a'; alp <= 'f'; alp++)
 
 		putchar(alp);
 
