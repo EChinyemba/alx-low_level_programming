@@ -7,18 +7,17 @@
  */
 int main(void)
 {
-int x;
-char alp;
+	int x;
+	char alp;
 
-for (x = 0; x <= 9; x++)
+	for(x = 0; x <= 9; x++)
 
-	putchar(x +'0');
+	for(alp = 'a'; alp <= 'f'; alp++)
 
-for (alp = 'a'; alp <= 'f'; alp++)
+		putchar(x);
+		putchar(alp);
+		putchar('\n');
 
-	putchar(alp);
+	return (0);
 
-	putchar('\n');
-
-return (0);
 }
