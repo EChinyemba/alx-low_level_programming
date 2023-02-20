@@ -2,18 +2,20 @@
 #include <stdlib.h>
 
 /**
- * msin - A program that prints the alphabet in reverse
+ * main - A program that prints the alphabet in reverse
  * Return: 0
  */
 int main(void)
 {
-	char alp;
+char alp;
 
-	for (alp = 'z'; alp >= 'a'; alp--)
+for (alp = 'z'; alp > 'a'; alp--)
+{
+	putchar(alp);
+}
 
-		putchar(alp);
+	putchar('\n');
 
-		putchar('\n');
+return (0);
 
-	return (0);
 }
