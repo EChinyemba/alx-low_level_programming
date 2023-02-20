@@ -7,18 +7,20 @@
  */
 int main(void)
 {
-	int x;
-	char alp;
+int x;
+char alp;
 
-	for (x = 0; x <= 9; x++)
+for (x = 0; x <= 9; x++)
+{
+	putchar(x + '0');
+}
 
-	for (alp = 'a'; alp <= 'f'; alp++)
+for (alp = 'a'; alp <= 'f'; alp++)
+{
+	putchar(alp);
+}
 
-		putchar(x + '0');
-		putchar(alp);
+	putchar('\n');
 
-		putchar('\n');
-
-	return (0);
-
+return (0);
 }
