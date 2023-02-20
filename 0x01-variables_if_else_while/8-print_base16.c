@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - A program that prints in base 16
+ * main - A program that prints numbers in base 16
  * Return: 0
  */
 int main(void)
@@ -10,17 +10,14 @@ int main(void)
 	int x;
 	char alp;
 
-	for(x = 0; x <= 9; x++)
-	{
+	for (x = 0; x <= 9; x++)
+
+	for (alp = 'a'; alp <= 'f'; alp++)
+
 		putchar(x + '0');
+		putchar(alp);
 
-		for(alp = 'a'; alp <= 'f'; alp++)
-		{
-			putchar(alp);
-
-		}
-			putchar('\n');
-	}
+		putchar('\n');
 
 	return (0);
 
