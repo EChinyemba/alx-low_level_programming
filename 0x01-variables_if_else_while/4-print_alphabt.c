@@ -8,19 +8,19 @@
  */
 int main(void)
 {
-	char alp;
+char alp;
 
-	for(alp = 'a'; alp <= 'z'; alp++)
-	{
+for(alp = 'a'; alp <= 'z'; alp++)
+{
 	if(alp == 'e' || alp == 'q')
 		continue;
-		putchar(alp);
+	putchar(alp);
 
-	}
+}
 
-		putchar('\n');
+	putchar('\n');
 
-	return (0);
+return (0);
 
 
 
