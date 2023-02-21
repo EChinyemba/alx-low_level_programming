@@ -7,20 +7,20 @@
  */
 int main(void)
 {
+char lw;
+char up;
 
-char lower;
-char upper;
+for (lw = 'a'; lw <= 'z'; lw++)
+{
+	putchar(lw);
+}
 
-for (lower = 'a'; lower <= 'z'; lower++)
+for (up = 'A'; up <= 'Z'; up++)
+{
+	putchar(up);
+}
 
-	putchar (lower);
-
-for (upper = 'A'; upper <= 'Z'; upper++)
-
-	putchar (upper);
-
-
-	putchar ('\n');
+	putchar('\n');;
 
 return (0);
 }
