@@ -2,16 +2,19 @@
 #include <stdlib.h>
 
 /**
- * main - A program that prints all single digits in base 10 statting from zero
+ * main - A program that prints all single digits in base 10 starting from zero
  * Return: 0
  */
 int main(void)
 {
-	int x;
+int x;
 
-	for (x = 0; x <= 9; x++)
+for (x = 0; x <= 9; x++)
+{
+	printf("%d\n", x);
 
-		printf("%d\n", x);
+}
 
-	return (0);
+return (0);
+
 }
