@@ -2,9 +2,9 @@
 
 /**
  * main - entry
- * Return: always 0
+ * Return: 
  */
-print_alphabet(void)
+void print_alphabet(void)
 {
 	char alp;
 
@@ -13,5 +13,5 @@ print_alphabet(void)
 	_putchar(alp);
 	_putchar('\n');
 
-	return (0);
+
 }
