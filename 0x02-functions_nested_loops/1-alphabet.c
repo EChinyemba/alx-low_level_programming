@@ -1,13 +1,12 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * main - entry
  * Return: always 0
  */
-int main()
+int main(void)
 {
-char alp;
+	char alp;
 
 	for(alp = 'a'; alp <= 'z'; alp++)
 
