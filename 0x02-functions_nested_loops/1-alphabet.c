@@ -4,7 +4,7 @@
  * main - entry
  * Return: always 0
  */
-void print_alphabet(void)
+print_alphabet(void)
 {
 	char alp;
 
