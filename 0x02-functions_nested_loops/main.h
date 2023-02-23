@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <unistd.h>
 
 #ifndef MAIN_H
 #define MAIN_H
@@ -14,6 +16,5 @@ void jack_bauer(void);
 void times_table(void);
 int add(int, int);
 void print_to_98(int n);
-#include <stdio.h>
 
 #endif
