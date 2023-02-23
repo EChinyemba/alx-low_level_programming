@@ -1,20 +1,20 @@
+#include <stdio.h>
 #include "main.h"
-
 /**
  * main - entry
  * Return: always 0
  */
-int main(void)
+int main()
 {
-char x[] = "_putchar";
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
 
-	int i;
-
-	for(i = 0; i <= 7; i++)
-
-	_putchar(x[i]);
-
-	_putchar('\n');
-
-	return (0);
+return (0);
 }
